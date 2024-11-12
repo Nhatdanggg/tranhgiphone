@@ -7,7 +7,7 @@ const LatestNews = () => {
       title: 'Apple ra mắt M4 Pro và M4 Max với tối đa 16 lõi CPU và 40 lõi GPU, hiệu năng “out trình” chip AI PC',
       image: 'https://9to5mac.com/wp-content/uploads/sites/6/2024/10/M4-MacBook-Pro-production-appears-well-underway.webp',
       description: 'Apple mới đây đã chính thức công bố MacBook Pro mới và được trang bị các chip M4, M4 Pro và M4 Max...',
-      author: 'Hải Nam',
+      author: 'Trần Minh Trí',
       date: '31/10/2024 11:26',
     },
     {
@@ -15,7 +15,7 @@ const LatestNews = () => {
       title: 'Trên tay Itel P55: Hơn 2 triệu có màn hình 90Hz, 8GB RAM và cụm camera giống iPhone 16 Pro Max!',
       image: 'https://i1-sohoa.vnecdn.net/2024/10/30/thumb-6867-1730255548.jpg?w=680&h=0&q=100&dpr=2&fit=crop&s=qAHQoiZG9kuxrMw2s22__w',
       description: 'Trên tay Itel P55, một mẫu smartphone giá rẻ có 8 GB, mượt mà nhờ tần số quét cao, pin trâu lên đến 5.000 mAh...',
-      author: 'Kyle Nguyen',
+      author: 'Nguyễn Trần Phương Linh',
       date: '31/10/2024 10:35',
     },
     {
@@ -23,7 +23,7 @@ const LatestNews = () => {
       title: 'Xiaomi TV S Mini LED 2025 ra mắt: Độ phân giải 4K 144Hz, kích thước tới 75 inch, giá từ 16 triệu đồng',
       image: 'https://cdn-media.sforum.vn/storage/app/media/lelong/Screenshot-2024-10-30-093434.jpg',
       description: 'Xiaomi TV S Mini LED 2025 là dòng TV cao cấp, sở hữu thiết kế đẹp mắt, thông số ấn tượng và mức giá hấp dẫn...',
-      author: 'Long Lê',
+      author: 'Trung code',
       date: '31/10/2024 07:58',
     },
     {
@@ -31,7 +31,7 @@ const LatestNews = () => {
       title: 'Xiaomi 15 có thêm phiên bản Custom Color có thể cá nhân hóa với 20 màu sắc và 40 sự kết hợp khác nhau',
       image: 'https://cdn.mobilecity.vn/mobilecity-vn/images/2024/10/mo-hop-xiaomi-15-snap8e-13.jpg.webp',
       description: 'Xiaomi mới đây vừa giới thiệu một phiên bản tùy chỉnh Xiaomi 15 Custom Color mới, chỉ có cấu hình RAM 16GB...',
-      author: 'Hải Nam',
+      author: 'Anh Hung',
       date: '31/10/2024 07:52',
     },
   ];

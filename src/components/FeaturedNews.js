@@ -1,6 +1,10 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
 
 const FeaturedNews = () => {
+  const navigate = useNavigate();
+  
   const articles = [
     {
       id: 1,
@@ -51,6 +55,10 @@ const FeaturedNews = () => {
       summary: 'Trí thông minh nhân tạo AI là công cụ hỗ trợ đắc lực và dễ tiếp cận trong thời đại công nghệ số hiện nay. Đặc biệt, nhiều nền tảng AI hàng đầu thế giới đã bắt đầu hỗ trợ tiếng Việt, mở ra cơ hội cho người dùng Việt Nam tận dụng sức mạnh của công nghệ này. Bài viết này sẽ giới thiệu Top 5 ứng dụng AI hàng đầu có hỗ trợ Tiếng Việt hoàn toàn miễn phí để bạn khám phá và sử dụng',
     },
   ];
+  const handleClick = (id) => {
+    navigate(`/news/${id}`);
+  };
+ 
 
   return (
     <section className="container mx-auto py-8">
@@ -59,7 +67,8 @@ const FeaturedNews = () => {
         {articles.map((article) => (
           <div
             key={article.id}
-            className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 ease-in-out transform hover:scale-105"
+            onClick={() => handleClick(article.id)}
+            className="bg-white rounded-lg shadow-md overflow-hidden cursor-pointer transition-transform duration-300 ease-in-out transform hover:scale-105"
           >
             <img
               src={article.image}
